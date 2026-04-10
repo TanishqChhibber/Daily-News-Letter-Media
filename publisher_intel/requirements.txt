@@ -1,0 +1,11 @@
+feedparser
+requests
+beautifulsoup4
+python-dateutil
+pandas
+openai
+selenium
+webdriver-manager
+Flask
+gspread
+google-auth

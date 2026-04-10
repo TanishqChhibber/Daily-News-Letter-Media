@@ -1,0 +1,20 @@
+html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:#e6f0ff;background:linear-gradient(135deg,#0a2342 0%,#000 100%);} 
+#bg{position:fixed;inset:0;z-index:0}
+main{position:relative;z-index:1;max-width:800px;margin:60px auto 0 auto;padding:32px;background:rgba(10,35,66,.85);border-radius:18px;box-shadow:0 8px 32px #000a}
+h1{font-weight:800;letter-spacing:.5px;margin-bottom:32px;text-align:center;font-size:2.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{display:block;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px;text-decoration:none;color:#e6f0ff;backdrop-filter:blur(6px);box-shadow:0 10px 30px rgba(0,0,0,.3);transition:transform .25s ease, box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.thumb{height:140px;border-radius:10px;background:linear-gradient(135deg,#0a3a7d,#0f1a3a);background-size:cover;background-position:center;margin-bottom:12px;position:relative;overflow:hidden}
+.card h3{margin:6px 0 6px;font-size:16px;line-height:1.35}
+.meta{opacity:.7;font-size:12px;margin:0 0 8px}
+.bullets{margin:0;padding-left:16px;opacity:.9}
+.newsletter{display:flex;flex-direction:column;gap:24px}
+.news-card{display:flex;align-items:flex-start;gap:18px;background:rgba(20,40,80,.7);border-radius:12px;padding:18px 22px;box-shadow:0 2px 12px #0005;transition:transform .2s, box-shadow .2s;position:relative}
+.news-card:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 6px 24px #00f2ff55}
+.dot{width:18px;height:18px;border-radius:50%;background:linear-gradient(135deg,#00f2ff 0%,#0a2342 100%);box-shadow:0 0 16px #00f2ff99, 0 0 2px #fff;margin-top:6px;transition:box-shadow .2s, background .2s}
+.news-card:hover .dot{box-shadow:0 0 32px #00f2ffcc, 0 0 8px #fff;background:linear-gradient(135deg,#00f2ff 0%,#1e90ff 100%)}
+.news-title{font-size:1.2rem;font-weight:700;margin-bottom:6px;color:#fff}
+.news-meta{font-size:.95rem;color:#aeeaff;margin-bottom:4px}
+.news-source{font-size:.85rem;color:#4adfff}
+canvas#bg{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;pointer-events:none}

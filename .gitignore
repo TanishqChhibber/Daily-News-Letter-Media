@@ -1,0 +1,4 @@
+.env
+*.json
+publisher_intel/credentials/
+google-creds.json
