@@ -83,12 +83,3 @@ python3 send_newsletter.py
 
 ---
 
-## Branch
-
-This project is on the branch: `Daily-News-Letter-Media`
-
----
-
-## Support
-
-Contact: tanishq.chhibber@lh2holdings.com
